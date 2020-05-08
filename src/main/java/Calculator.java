@@ -30,10 +30,10 @@ public class Calculator {
 			case 2:
 			sub(a,b);
 			break;
-			/*case 3:
+			case 3:
 			mul(a,b);
 			break;
-			case 4:
+			/*case 4:
 			div(a,b);
 			break;*/
 			case 9: System.out.println("Exiting calculator");
@@ -56,5 +56,10 @@ public class Calculator {
 		  System.out.println("Result is "+(a-b));
 		  return c;
 	  }
+	public static int mul(int a,int b){
+		int c = a*b;	
+		  System.out.println("Result is "+ (a*b));
+		  return c;
+		}
 
 }
