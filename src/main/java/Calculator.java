@@ -27,7 +27,7 @@ public class Calculator {
 			case 1:
 			add(a,b);
 			break;
-			case 2:
+			/*case 2:
 			sub(a,b);
 			break;
 			case 3:
@@ -35,7 +35,7 @@ public class Calculator {
 			break;
 			case 4:
 			div(a,b);
-			break;
+			break;*/
 			case 9: System.out.println("Exiting calculator");
 			System.exit(0);
 			break;
