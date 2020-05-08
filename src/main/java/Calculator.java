@@ -46,9 +46,9 @@ public class Calculator {
 	}
 
 	public static int add(int a,int b){
-		int c = a+b;
+		int sum = a+b;
 		System.out.println("Result is "+c);
-		return c;
+		return sum;
 	}
 
 
