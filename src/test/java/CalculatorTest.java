@@ -2,6 +2,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import simple.Calculator;
+
 public class CalculatorTest {
 	   
 	    @Test
@@ -10,6 +12,15 @@ public class CalculatorTest {
 	        int b = 20;
 	        int expectedResult = 35;
 	        int result = Calculator.add(a, b);
+	        Assert.assertEquals(expectedResult, result);;
+	    }
+	    
+	    @Test
+	    public void testSubtract() {
+	        int a = 25;
+	        int b = 20;
+	        int expectedResult = 5;
+	        int result = Calculator.sub(a, b);
 	        Assert.assertEquals(expectedResult, result);;
 	    }
 }

@@ -27,10 +27,10 @@ public class Calculator {
 			case 1:
 			add(a,b);
 			break;
-			/*case 2:
+			case 2:
 			sub(a,b);
 			break;
-			case 3:
+			/*case 3:
 			mul(a,b);
 			break;
 			case 4:
@@ -51,6 +51,10 @@ public class Calculator {
 		return sum;
 	}
 
-
+	public static int sub(int a,int b){
+	      int c = a-b;
+		  System.out.println("Result is "+(a-b));
+		  return c;
+	  }
 
 }
